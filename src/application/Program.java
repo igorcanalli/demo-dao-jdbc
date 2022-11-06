@@ -2,6 +2,7 @@ package application;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Scanner;
 
 import modal.entities.Department;
 import modal.entities.Seller;
@@ -48,6 +49,11 @@ public class Program {
 		sallerDao.update(sellerUpdate);
 		System.out.println("Update Completed!");
 
+		System.out.println("=== Test 6: seller delete ===");
+		System.out.println("Enter Id for delete test:");
+		sallerDao.deleteById(new Scanner(System.in).nextInt());
+		System.out.println("=== Excluse completed ===");
+		
 	}
 
 }
