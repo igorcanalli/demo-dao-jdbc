@@ -2,7 +2,7 @@ package model.dao;
 
 import java.util.List;
 
-import modal.entities.Department;
+import model.entities.Department;
 
 public interface DepartmentDao {
 	
@@ -10,7 +10,7 @@ public interface DepartmentDao {
 
 	void update(Department department);
 
-	void deleteById(Department department);
+	void deleteById(Integer department);
 
 	Department findById(Integer id);
 

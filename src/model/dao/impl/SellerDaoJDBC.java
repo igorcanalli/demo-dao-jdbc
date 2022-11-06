@@ -12,9 +12,9 @@ import java.util.Map;
 
 import db.DB;
 import db.DbException;
-import modal.entities.Department;
-import modal.entities.Seller;
 import model.dao.SellerDao;
+import model.entities.Department;
+import model.entities.Seller;
 
 public class SellerDaoJDBC implements SellerDao {
 
